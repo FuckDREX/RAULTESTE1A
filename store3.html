@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Responsiva</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #3c0470;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .whatsapp-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #25D366;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .whatsapp-button:hover {
+            background-color: #3c0470;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        .item {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 0.5rem;
+            width: calc(25% - 1rem);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .item:hover {
+            transform: scale(1.05);
+        }
+
+        .item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .item h3 {
+            margin: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .item p {
+            margin: 0.5rem;
+            color: #666;
+        }
+
+        .item button {
+            background-color: #3c0470;
+            color: white;
+            border: none;
+            padding: 0.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 0.5rem;
+            width: calc(100% - 1rem);
+        }
+
+        .item button:hover {
+            background-color: #3c0470;
+        }
+
+        @media (max-width: 768px) {
+            .item {
+                width: calc(50% - 1rem);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .item {
+                width: calc(100% - 1rem);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>UNIÃO RAULS DA ZN </h1>
+    <a href="https://wa.me/yourphonenumber" class="whatsapp-button" target="_blank">SUPORTE</a>
+</header>
+
+<div class="container">
+    <!-- Item 1 -->
+    <div class="item">
+        <img src="c:\Users\VsgDaNorte\Downloads\hacker_image_resized_150px.png" alt="Item 1">
+        <h3>CURSOS</h3>
+        <p>CURSOS PARA  VIRAR 7 DE VERDADE</p>
+        <button>Comprar</button>
+    </div>
+    <!-- Item 2 -->
+    <div class="item">
+        <img src="c:\Users\VsgDaNorte\Downloads\WhatsApp Image 2024-12-05 at 21.05.57.jpeg" alt="Item 2">
+        <h3>NOTAS</h3>
+        <p>NOTAS FAKES IMPORTADAS</p>
+        <button>Comprar</button>
+    </div>
+    <!-- Item 3 -->
+    <div class="item">
+        <img src="c:\Users\VsgDaNorte\Downloads\cartao-de-credito-consignado-1.jpg" alt="Item 3">
+        <h3>INFO CC</h3>
+        <p>CARTÃO CLONADO INFO</p>
+        <button>Comprar</button>
+    </div>
+    <!-- Item 4 -->
+    <div class="item">
+        <img src="c:\Users\VsgDaNorte\Downloads\Sem título.png" alt="Item 4">
+        <h3>CONSULTÁVEL</h3>
+        <p>CARTÃO CLONADO + SALDO + LOGIN</p>
+        <button>Comprar</button>
+    </div>
+  
+</div>
+
+</body>
+</html>
